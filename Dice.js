@@ -12,11 +12,12 @@ function roll_dice(){
     for(let i = 1; i<=n_dices; i++){
         const r_value = Math.floor(Math.random()*6);
         values.push(r_value);
-        images.push(`<img src="../Image Folder/${r_value+1}.png">`);
+        images.push(`<img src="${r_value+1}.png">`);
         console.log(r_value);
     }
 
     dice_images.innerHTML = images.join("");
 }
+
 
 
