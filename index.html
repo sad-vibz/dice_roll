@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Rollin'</title>
+    <link rel="stylesheet" href="../CSS/Dice.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading" id="heading_h">
+            <h1>DICE ROLL</h1>
+        </div>
+        <div class="input_session" id="inputs">
+            <label for="n_dices">Enter the number of dices in here : </label>
+            <input type="number" id="n_dices" min="1" max="6">
+            <button id="Roll" onclick="roll_dice()">Roll</button>
+            <div id="dice_name"></div>
+            <div id="dice_image"></div>
+        </div>
+    </div>
+
+    <script src="../JS/Dice.js"></script>
+    <!-- <img src="../Image Folder/1.png" alt=""> -->
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+#n_dices{
+    outline: none;
+}
+#Roll{
+    border: none;
+    background-color: rgba(75, 182, 240, 0.953);
+    color: white;
+    padding: 5px 20px;
+    transition: 100ms;
+}
+#Roll:hover{
+    cursor: pointer;
+    color: rgba(75, 182, 240, 0.953);
+    background-color: white;
+    border: 1px solid rgba(75, 182, 240, 0.953);
+}
+#Roll:active{
+    background-color: rgba(75, 182, 240, 0.953);
+    color: white;
+}
